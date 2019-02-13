@@ -23,6 +23,7 @@
 }
 
 html {
+  font-size: 10px;
   font-family: sans-serif; // 2
   line-height: 1.15; // 3
   -webkit-text-size-adjust: 100%; // 4
@@ -52,6 +53,11 @@ body {
   color: $body-color;
   text-align: left; // 3
   background-color: $body-bg; // 2
+}
+
+html,
+body {
+  height: 100%;
 }
 
 // Suppress the focus outline on elements that cannot be accessed via keyboard.
